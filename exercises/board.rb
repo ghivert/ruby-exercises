@@ -113,7 +113,6 @@ def print_board(board)
 end
 
 # Don't change this code, either!
-# See http://cl.ly/image/3t450Y271d25 for expected output
 if __FILE__ == $PROGRAM_NAME
   board = Board.new(4, 4)
   board.place(0, 0, "X")

@@ -32,7 +32,3 @@ if __FILE__ == $PROGRAM_NAME
   p sum([-111, -111, -111]) == -333
   p sum([11, 22, 33]) == 66
 end
-
-# Remember: these are rumble strips, not a driving instructor.
-# If any are "false" then something is broken, but just because they're
-# all "true" doesn't mean you've nailed it. :)

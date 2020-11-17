@@ -33,23 +33,3 @@ if __FILE__ == $PROGRAM_NAME
   # What *should* this print?
   bottles(5)
 end
-
-# Hint #1:
-# The "downto" method will be useful.
-#
-# See http://ruby-doc.org/core-2.0/Integer.html#method-i-downto or try this:
-#
-#   puts "Counting down..."
-#   10.downto(1) do |i|
-#     puts i
-#   end
-#   puts "Blast off!"
-
-# Hint #2:
-# The priority is getting this method to work, even if your code is messy, but
-# try to isolate the part of each line that changes depending on the number of
-# bottles and move it to its own method.  This makes handling the
-# singular/plural logic much easier.
-#
-# Yes, that means you'll need to define another method here on your own. If you
-# decide to try this approach, give it a sensible name. :)

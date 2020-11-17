@@ -22,39 +22,13 @@
 # http://www.bigprimes.net/archive/fibonacci/100/
 # http://www.bigprimes.net/archive/fibonacci/10000/
 
-# Note #1
-# This kata is the first "performance sensitive" kata.  Depending on your
-# implementation, your method may or may not be able to handle large integer
-# inputs.  Don't worry if it can't.
-
 def fib(n)
 end
 
 if __FILE__ == $PROGRAM_NAME
-  # Here are our sanity checks with justification.
-
-  # These are the two "base cases", so if anything is wrong here,
-  # everything computed from these numbers will almost certainly be wrong.
   p fib(0) == 0
   p fib(1) == 1
-
-  # This is the first "computed" number, so if something is wrong with our
-  # computation there's a good chance it will show up here.
   p fib(2) == 1
-
-  # The 5th Fibonacci number is 5 and is the only one with this property, so
-  # it serves as a good sanity check.
   p fib(5) == 5
-
-  # This serves as a good input for the "common case"
   p fib(123) == 22698374052006863956975682
-
-  # Want to see if your fibonacci method can handle big inputs?
-  # Uncomment this:
-  #
-  # puts "The 1,000,000th Fibonacci number is #{fib(1000000)}"
-  #
-  # !!!WARNING!!!
-  # This might grind your computer to a halt. If that happens, press CTRL+c.
-  # That's "control" and "c" at the same time.
 end

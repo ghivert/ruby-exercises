@@ -19,9 +19,6 @@ def count_max(list)
   # You can write this using nothing more than the max and count_in_list
   # methods that you've already written.  You do not HAVE to, but it's worth
   # trying. The "require_relative" statements above make them available to us.
-  #
-  # But remember: inelegant, working code is better than elegant,
-  # unfinished code.
 end
 
 if __FILE__ == $PROGRAM_NAME

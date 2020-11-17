@@ -5,10 +5,6 @@
 # Goal 1: Get this working with small Fibonacci numbers (N < 100)
 # Goal 2: Get this working with large Fibonacci numbers (N >= 2**15)
 # Goal 3: Get this working QUICKLY with large Fibonacci numbers.
-#
-# Here's a screenshot of the fastest implementation I know:
-#   http://cl.ly/image/1z3b3y41130b
-# This can calculate is_fibonacci?(fib(2**18)) in ~0.9 seconds.
 
 require "benchmark"
 require_relative "fast_fib"

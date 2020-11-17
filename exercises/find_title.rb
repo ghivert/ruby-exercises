@@ -26,45 +26,5 @@ if __FILE__ == $PROGRAM_NAME
   # Some sanity checks!
 
   p find_title("https://www.google.com") == "Google"
-  p find_title("https://www.yahoo.com") == "Yahoo"
-
-  p find_title("https://www.facebook.com") ==
-    "Welcome to Facebook - Log In, Sign Up or Learn More"
+  p find_title("https://www.dropbox.com") == "Dropbox"
 end
-
-# Note #2
-# Once you have the HTML, there are a few ways to extract the contents
-# of the title tag.
-#
-# 1. Use a library that can parse HTML
-# We recommend the "nokogiri" Ruby gem.  To use nokogiri, first install it
-#
-#   gem install nokogiri
-#
-# and require it in your Ruby code
-#
-#   require 'nokogiri'
-#
-# Nokogiri can be difficult to install, so if this doesn't work let us know!
-#
-# See http://nokogiri.org/tutorials/parsing_an_html_xml_document.html
-# for examples.  If Nokogiri is installed, getting the title of a web page is as
-# simple as
-#
-#   Nokogiri::HTML(open(url)).title
-#
-# 2. Use regular expressions
-# Regular expressions (or "regex") are a mini-language to specify search
-# patterns inside a larger piece of text.  They are very powerful, but the
-# syntax is intimidating until you get used to it.
-#
-# Start here: http://code.tutsplus.com/tutorials/you-dont-know-anything-about-regular-expressions-a-complete-guide--net-7869
-#
-# 3. Iterate through the string one character at a time.
-# You can do this using String#each_char, like so
-#
-#  contents.each_char do |char|
-#    # logic goes here
-#  end
-#
-# This is tedious but instructive.

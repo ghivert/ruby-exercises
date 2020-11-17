@@ -4,7 +4,6 @@
 # Prints:      Nothing
 
 def shortest_string(list)
-  # This is your job. :)
 end
 
 if __FILE__ == $PROGRAM_NAME

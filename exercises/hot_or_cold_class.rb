@@ -16,7 +16,6 @@ class HotOrCold
   # number given is too small, and the String "correct" if number given is
   # correct.
   def hot_or_cold(number)
-    # Hint: we'll ened to be comparing number to @number_to_guess
   end
 end
 

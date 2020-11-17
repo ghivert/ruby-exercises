@@ -9,14 +9,9 @@
 
 class Die
   def initialize(sides)
-    # This is your job. :)
-    # Hint: you'll need to set an instance variable so that your Die instance
-    # can remember what value the user passed into Die.new
   end
 
   def roll
-    # This is your job. :)
-    # Hint: You'll need to reference an instance variable in this method.
   end
 end
 

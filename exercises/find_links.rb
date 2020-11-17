@@ -11,11 +11,6 @@ require "nokogiri"
 # from the command line to install it:
 #
 #   gem install nokogiri
-#
-# Nokogiri can be difficult to install, so if this doesn't work let us know!
-# The installation messages can also be intimidating, but here's Jesse
-# installing nokogiri on his laptop running OS X 10.9 (Mavericks)
-# http://cl.ly/image/163i3r290m3D
 
 # Here are some tutorials on how to use Nokogiri to do this. Please email us
 # if you're confused about anything in the tutorials.

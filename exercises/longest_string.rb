@@ -5,11 +5,6 @@
 #
 # For example, longest_string(["a", "zzzz", "c"]) should return "zzzz" since
 # the other strings are 1 character long and "zzzz" is 4 characters long.
-#
-# To get the length of a string in the variable str, call str.length
-# For example,
-#   str = "zzzz"
-#   str.length == 4
 
 def longest_string(list)
   # This is your job. :)

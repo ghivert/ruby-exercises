@@ -21,10 +21,6 @@
 require_relative "./print_triangle"
 
 def print_pyramid(height)
-  # This is your job. :)
-  # Suggestion: you can call print_triangle to print out the first, "upward"
-  # half of the pyramid. You'll have to write code to print out the second,
-  # "downward" half of the pyramid.
 end
 
 if __FILE__ == $PROGRAM_NAME
